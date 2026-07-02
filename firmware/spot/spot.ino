@@ -16,11 +16,11 @@ namespace {
   // different periods, so they don't all start the rising edge of the PWM
   // period at the same time.
   std::array PWM{
-    V2Base::Timer::PWM(0, 1000),
-    V2Base::Timer::PWM(1, 1100),
-    V2Base::Timer::PWM(2, 1200),
-    V2Base::Timer::PWM(3, 1300),
-    V2Base::Timer::PWM(4, 1400),
+    V2Base::Timer::PWM(0, 8000),
+    V2Base::Timer::PWM(1, 8100),
+    V2Base::Timer::PWM(2, 8200),
+    V2Base::Timer::PWM(3, 8300),
+    V2Base::Timer::PWM(4, 8400),
   };
 
   class {
