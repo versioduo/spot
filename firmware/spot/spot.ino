@@ -5,7 +5,7 @@
 #include <V2Link.h>
 #include <V2MIDI.h>
 
-V2DEVICE_METADATA("com.versioduo.spot", 1, "versioduo:samd:drum");
+V2DEVICE_METADATA("com.versioduo.spot", 2, "versioduo:samd:drum");
 
 namespace {
   V2LED::WS2812 LED(5, PIN_LED_WS2812, &sercom2, SPI_PAD_0_SCK_1, PIO_SERCOM);
@@ -212,7 +212,7 @@ auto setup() -> void {
   // frequency. The call needs to be after begin().
   Link.begin();
   setSerialPriority(&SerialPlug, 2);
-  setSerialPriority(&SerialSocket, 2);
+  setSerialPriority(&SerialSocket, 1);
 
   for (auto& p : PWM)
     p.begin();
