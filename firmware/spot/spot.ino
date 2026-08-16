@@ -3,11 +3,11 @@
 #include <V2Link.h>
 #include <V2MIDI.h>
 
-V2DEVICE_METADATA("com.versioduo.spot", 4, "versioduo:samd:spot");
+V2DEVICE_METADATA("com.versioduo.spot", 5, "versioduo:samd:spot");
 
 namespace {
-  V2Link::Port Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE);
-  V2Link::Port Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE);
+  V2Link::Port Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE, "plug");
+  V2Link::Port Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE, "socket");
 
   // Try to spread the power switching noise; run the timers with slightly
   // different periods, so they don't all start the rising edge of the PWM
