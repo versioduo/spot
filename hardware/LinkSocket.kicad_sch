@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 spot")
-		(date "2026-06-30")
-		(rev "2026-06-30")
+		(date "2026-08-20")
+		(rev "2026-08-20")
 		(company "Versio Duo")
 		(comment 1 "LED Light")
 	)
