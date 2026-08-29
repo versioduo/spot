@@ -2085,7 +2085,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "013134c2-c495-4752-a9f3-dcc418142145")
-		(property "Reference" "#PWR01002"
+		(property "Reference" "#PWR1002"
 			(at 154.94 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2146,7 +2146,7 @@
 		(instances
 			(project "spot"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR01002")
+					(reference "#PWR1002")
 					(unit 1)
 				)
 			)
@@ -2483,7 +2483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cd5c335-1966-4dfd-b071-991164f7d6fd")
-		(property "Reference" "#PWR01003"
+		(property "Reference" "#PWR1003"
 			(at 154.94 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2544,7 +2544,7 @@
 		(instances
 			(project "spot"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR01003")
+					(reference "#PWR1003")
 					(unit 1)
 				)
 			)
@@ -2561,7 +2561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "787831d5-b5ee-4f7d-9a05-eca8315877e8")
-		(property "Reference" "#PWR01004"
+		(property "Reference" "#PWR1004"
 			(at 176.53 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2622,7 +2622,7 @@
 		(instances
 			(project "spot"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR01004")
+					(reference "#PWR1004")
 					(unit 1)
 				)
 			)
@@ -2774,7 +2774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba7c5977-14ad-4df4-afa5-e58c0af35656")
-		(property "Reference" "#PWR01001"
+		(property "Reference" "#PWR1001"
 			(at 137.16 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2835,7 +2835,7 @@
 		(instances
 			(project "spot"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR01001")
+					(reference "#PWR1001")
 					(unit 1)
 				)
 			)
