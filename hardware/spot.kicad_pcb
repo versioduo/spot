@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(date "2026-08-20")
+		(date "2026-08-30")
 		(rev "2026-08-20")
 	)
 	(layers
@@ -3967,7 +3967,7 @@
 		)
 		(path "/2a03ea79-269e-4abf-833c-000ba0ff13d7/3eb19088-3b08-4e96-8938-3d11fa73e612")
 		(sheetname "/Link Socket/")
-		(sheetfile "LinkSocket.kicad_sch")
+		(sheetfile "Link-Socket.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8001,7 +8001,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6db2f80-f80f-4104-8ca1-02f0ab85cfea/f076f75b-54ef-473a-90ee-71c9fc219e00")
 		(sheetname "/Link Plug/")
-		(sheetfile "LinkPlug.kicad_sch")
+		(sheetfile "Link-Plug.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8687,7 +8687,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/db9f305d-c851-4b73-b2af-61e94839e399/32e0962d-2870-40f1-961f-e0a8436f4ae1")
 		(sheetname "/Power +5V/")
-		(sheetfile "PowerSupply.kicad_sch")
+		(sheetfile "Power-DCDC.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10007,7 +10007,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/db9f305d-c851-4b73-b2af-61e94839e399/2984d9f9-0bb1-4243-bafb-064221e4b94f")
 		(sheetname "/Power +5V/")
-		(sheetfile "PowerSupply.kicad_sch")
+		(sheetfile "Power-DCDC.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10461,7 +10461,7 @@
 		)
 		(path "/db9f305d-c851-4b73-b2af-61e94839e399/1810c6ec-7176-4f6b-89cb-cc3c00a8361e")
 		(sheetname "/Power +5V/")
-		(sheetfile "PowerSupply.kicad_sch")
+		(sheetfile "Power-DCDC.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -12104,7 +12104,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2a03ea79-269e-4abf-833c-000ba0ff13d7/d6d86372-3cc0-4059-a968-9a78901fd202")
 		(sheetname "/Link Socket/")
-		(sheetfile "LinkSocket.kicad_sch")
+		(sheetfile "Link-Socket.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12654,7 +12654,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/db9f305d-c851-4b73-b2af-61e94839e399/77be58e3-6c00-45da-9843-6a2883e3b059")
 		(sheetname "/Power +5V/")
-		(sheetfile "PowerSupply.kicad_sch")
+		(sheetfile "Power-DCDC.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13108,7 +13108,7 @@
 		)
 		(path "/c6db2f80-f80f-4104-8ca1-02f0ab85cfea/49f2f260-4bf1-486c-9d7a-43ac2a901e5b")
 		(sheetname "/Link Plug/")
-		(sheetfile "LinkPlug.kicad_sch")
+		(sheetfile "Link-Plug.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14532,7 +14532,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/db9f305d-c851-4b73-b2af-61e94839e399/cac3c346-4365-4436-a009-c85b94d5cc1e")
 		(sheetname "/Power +5V/")
-		(sheetfile "PowerSupply.kicad_sch")
+		(sheetfile "Power-DCDC.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15049,7 +15049,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/db9f305d-c851-4b73-b2af-61e94839e399/6f72d12b-3fd7-4fef-b38d-6a1a01607885")
 		(sheetname "/Power +5V/")
-		(sheetfile "PowerSupply.kicad_sch")
+		(sheetfile "Power-DCDC.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15275,7 +15275,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2a03ea79-269e-4abf-833c-000ba0ff13d7/8be78d92-c52c-403a-8e36-88157418b91c")
 		(sheetname "/Link Socket/")
-		(sheetfile "LinkSocket.kicad_sch")
+		(sheetfile "Link-Socket.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15727,7 +15727,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c6db2f80-f80f-4104-8ca1-02f0ab85cfea/51d3649f-ce1e-4270-8185-d550f68a90c3")
 		(sheetname "/Link Plug/")
-		(sheetfile "LinkPlug.kicad_sch")
+		(sheetfile "Link-Plug.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16059,7 +16059,7 @@
 		)
 		(path "/2a03ea79-269e-4abf-833c-000ba0ff13d7/6952a615-12fb-48d0-b7e4-acd68a0fd71d")
 		(sheetname "/Link Socket/")
-		(sheetfile "LinkSocket.kicad_sch")
+		(sheetfile "Link-Socket.kicad_sch")
 		(attr through_hole allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16521,7 +16521,7 @@
 		)
 		(path "/c6db2f80-f80f-4104-8ca1-02f0ab85cfea/a168b3ea-dea7-420c-9c92-20f2e99c6edc")
 		(sheetname "/Link Plug/")
-		(sheetfile "LinkPlug.kicad_sch")
+		(sheetfile "Link-Plug.kicad_sch")
 		(attr through_hole allow_missing_courtyard)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
