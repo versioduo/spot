@@ -4,7 +4,7 @@
 #include <V2MIDI.h>
 
 namespace {
-  V2Device::Info Info{V2DeviceInfo("com.versioduo.spot", 5, "versioduo:samd:spot")};
+  V2Device::Info Info{V2DeviceInfo("com.versioduo.spot", 8, "versioduo:samd:spot")};
   V2Link::Port   Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE, "plug");
   V2Link::Port   Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE, "socket");
 
@@ -12,11 +12,11 @@ namespace {
   // different periods, so they don't all start the rising edge of the PWM
   // period at the same time.
   std::array PWM{
-    V2Base::Timer::PWM(0, 8000),
-    V2Base::Timer::PWM(1, 8100),
-    V2Base::Timer::PWM(2, 8200),
-    V2Base::Timer::PWM(3, 8300),
-    V2Base::Timer::PWM(4, 8400),
+    V2Base::Timer::PWM(0, 2000),
+    V2Base::Timer::PWM(1, 2100),
+    V2Base::Timer::PWM(2, 2200),
+    V2Base::Timer::PWM(3, 2300),
+    V2Base::Timer::PWM(4, 2400),
   };
 
   class {
@@ -92,15 +92,15 @@ namespace {
 
   private:
     enum class CC {
-      Brightness = V2MIDI::CC::ChannelVolume,
+      Brightness = V2MIDI::CC::ModulationWheel,
       Cold       = V2MIDI::CC::EffectControl1,
       Warm       = V2MIDI::CC::EffectControl2,
     };
 
-    V2MIDI::CC::HighResolution<(uint8_t)V2MIDI::CC::ChannelVolume>  _brightness;
-    V2MIDI::CC::HighResolution<(uint8_t)V2MIDI::CC::EffectControl1> _cold;
-    V2MIDI::CC::HighResolution<(uint8_t)V2MIDI::CC::EffectControl2> _warm;
-    uint32_t                                                        _timeoutUsec{};
+    V2MIDI::CC::HighResolution<uint8_t(CC::Brightness)> _brightness;
+    V2MIDI::CC::HighResolution<uint8_t(CC::Cold)>       _cold;
+    V2MIDI::CC::HighResolution<uint8_t(CC::Warm)>       _warm;
+    uint32_t                                            _timeoutUsec{};
 
     auto handleReset() -> void override {
       allNotesOff();
